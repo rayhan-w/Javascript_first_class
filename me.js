@@ -1,5 +1,5 @@
 
-console.log("Rayhan Khan"); 
+//console.log("Rayhan Khan"); 
 
 //document.write("Rayhan Khan\n"); 
 
@@ -9,39 +9,90 @@ console.log("Rayhan Khan");
 
 // variable (variable name = varaible value / x=1) num1 num_1 
 
-const a=10; 
+//const a=10; 
 
-let b=5, c; 
+//let b=5, c; 
 
 //a=14; 
-c= a%b; 
+//c= a%b; 
 
 
 
-let x= rayhan(4,4); 
+// let x= rayhan(4,4); 
 
 
-function rayhan(a,b){
-    return a+b; 
+// function rayhan(a,b){
+//     return a+b; 
+// }
+
+//   //document.write(x); 
+
+// let C= celcius(98.5);
+// function celcius(f){
+//             return (f-32)*5/9;
+// }
+
+// document.write("celcius scale is",C);
+
+// const person ={
+//     firstname: "rayhan", 
+//     lastname: "Hayder", 
+//     age: 23, 
+
+
+// };
+
+// console.log(person); 
+
+// console.log(person.age); 
+
+// let cars = ["BMW", "COROLA", "SUZUKI"]; 
+
+
+// console.log(cars.push("Alion")); 
+
+// let fruits=["Banana","Mango","Apple","orange"];
+// console.log(fruits.slice(1,3));
+
+
+
+let account = 55; 
+
+if(account>=80 && account<=100){
+    document.write("Grade is: A+"); 
 }
 
-  //document.write(x); 
-
-let C= celcius(98.5);
-function celcius(f){
-            return (f-32)*5/9;
+else if(account>=70 && account<=79)
+{
+    document.write("Grade is: A"); 
+}
+else if(account>=60 && account<=69){
+    document.write("Grade is A-");
 }
 
-document.write("celcius scale is",C);
+else if(account>=50 && account<=59){
+    document.write("Grade is B");
+}
 
-const person ={
-    firstname: "rayhan", 
-    lastname: "Hayder", 
-    age: 23, 
+else if (account>=40 && account<=49){
+    document.write("grade is c");
+}
+
+else if (account>=33 && account<=39){
+    document.write("grade is D");
+}
 
 
-};
+else{
+    document.write("Grade is : Fail"); 
+}
 
-console.log(person); 
+let agt= 20; 
+// write condition with the help of terneary operator 
+let voteable = (agt < 21) ? "avilabale": "not avilabale";
 
-console.log(person.age); 
+console.log(voteable); 
+
+// write a program in js to declare any word is vowel or consonant .
+//  write a program in js to define a number is it positive or negeative . 
+// write a program in js to define a number of year is lepyear or not . 
