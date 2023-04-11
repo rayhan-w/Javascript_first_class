@@ -96,3 +96,46 @@ console.log(voteable);
 // write a program in js to declare any word is vowel or consonant .
 //  write a program in js to define a number is it positive or negeative . 
 // write a program in js to define a number of year is lepyear or not . 
+
+
+// build a simple calculator 
+
+let x= rayhan(4,4); 
+
+
+function rayhan(a,b){
+    return a+b; 
+}
+
+
+let y= sub(10,4); 
+
+
+function sub(a,b){
+   return a-b; 
+}
+
+
+let oper = '-'; 
+
+switch(oper){
+   case '+': 
+     console.log(x);
+break; 
+  case '-': 
+  console.log(y); 
+
+  break; 
+
+
+}
+
+// for loop simple 1 to 10 execution 
+// i++ mean ->  i= i+1 
+let i; 
+
+for(i=1; i<=10; i++)
+{
+    console.log(i);
+}
+
