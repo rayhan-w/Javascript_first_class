@@ -174,3 +174,25 @@ function myMove() {
     }
   }
 }
+
+
+function move(){
+    let id = null;
+    const elem = document.getElementById("subprogress");
+    let pos = 0;
+    clearInterval(id);
+    id = setInterval (frame, 5);
+    function frame(){
+        if (pos==600){
+            clearInterval(id);
+        }else{
+            pos++;
+
+            elem.style.width=pos+"px";
+        }
+    }
+
+
+
+}
+
