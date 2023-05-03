@@ -158,22 +158,22 @@ document.getElementById("cdf").style.color = "red";
 //     document.write(c);
 // }
 
-function myMove() {
-  let id = null;
-  const elem = document.getElementById("animate");   
-  let pos = 0;
-  clearInterval(id);
-  id = setInterval(frame, 5);
-  function frame() {
-    if (pos == 500) {
-      clearInterval(id);
-    } else {
-      pos++; 
+// function myMove() {
+//   let id = null;
+//   const elem = document.getElementById("animate");   
+//   let pos = 0;
+//   clearInterval(id);
+//   id = setInterval(frame, 5);
+//   function frame() {
+//     if (pos == 500) {
+//       clearInterval(id);
+//     } else {
+//       pos++; 
     
-      elem.style.width = pos + "px"; 
-    }
-  }
-}
+//       elem.style.width = pos + "px"; 
+//     }
+//   }
+// }
 
 //document.getElementById("demo").innerHTML = 
 //"Screen width is " + window.location.href;
